@@ -37,13 +37,13 @@
     "android",
     "rust,"
   ],
-  "repository": "https://github.com/lauhon/react-native-rust-module",
-  "author": "Laurenz Honauer <laurenz.honauer@gmail.com> (https://github.com/lauhon)",
+  "repository": "https://github.com/entelostre/react-native-rust-module",
+  "author": "(https://github.com/entelostre)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lauhon/react-native-rust-module/issues"
+    "url": "https://github.com/entelostre/react-native-rust-module/issues"
   },
-  "homepage": "https://github.com/lauhon/react-native-rust-module#readme",
+  "homepage": "https://github.com/entelostre/react-native-rust-module#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
