@@ -20,9 +20,15 @@ export! {
 
 	@Java_com_reactnativerust_RustBridge_helloWorld
 	fn hello_world() -> String {
-		"Hello from Rust".to_string()
+		let res = fib(42);
+		res.to_string()
 	}
 
 }
-
+fn fib(n: u64) -> u64 {
+	if n <= 1 {
+		return n;
+	}
+	fib(n - 1) + fib(n - 2)
+}
 ffi_support::define_string_destructor!(signer_destroy_string);
